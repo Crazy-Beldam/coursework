@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Моя первая HTML-страница</title>
+  <link href="./Main.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="nav">
+    <a href="#about" class="nav__link">Кто я</a>
+    <a href="#services" class="nav__link">Услуги</a>
+    <a href="#FAG" class="nav__link">FAQ</a>
+    <a href="#place" class="nav__link">Где</a>
+  </nav>
+</body>
+
+<header class="header">
+  <h1 class="header__town" id="header__town">г. Елабуга </h1>
+  <h1 class="header__title" id="header__title">Овчинникова Ксения</h1>
+  <h1 class="header__work" id="header__work">Мастер маникюра</h1>
+  <h3 class="quote"> -«Ничто не поднимает настроение так, как свежий маникюр»</h3>
+  <div class="furniture">
+    <img src="./src/лаки.jpg" alt="Обстановка1" class="place__work1">
+    <img src="./src/место.jpg" alt="Обстановка2" class="place__work2">
+    <img src="./src/расходники.jpg" alt="Обстановка3" class="place__work3">
+  </div>
+  <div>
+    <img src="./src/IMG_2914.JPG" alt="Логотип" class="header__logo">
+  </div>
+</header>
+
+<button class="btn2" type="button">
+  <a href="tg://resolve?domain=@Chatonksy" class="contact__icon-link">Записаться</a>
+</button>
+
+<div class="about__me" id="about">
+  <img src="./src/обо_мне1.jpg" alt="обо_мне" class="about__me1">
+  <div>
+    <p class="text__about__me">Я — мастер маникюра с множеством сертификатов и повышений квалификации.
+      Для меня маникюр — это искусство, в котором я соединяю профессионализм и креативность. <br><br>
+      Я не просто делаю ногти, а подчеркиваю индивидуальность каждого клиента, создавая стильные и уникальные образы.
+      <br><br>
+      Мой нестандартный взгляд и творческий подход помогают мне находить оригинальные решения,
+      а неординарность моей личности отражается в каждой работе
+    </p>
+  </div>
+  <img src="./src/обо_мне2.jpg" alt="обо_мне" class="about__me2">
+</div>
+
+<section class="services" id="services">
+  <p class="services__title">Услуги</p>
+  <div class="services__cards">
+    <div class="services__card">
+      <p class="services__card-title">
+      <h2 class="text__tittle">Аппаратный маникюр</h2>
+      <figure class="block">
+        <img src="./src/аппаратный.jpg" alt="Аппаратный" class="services__image">
+        <br>
+        <section class="text_servises">
+          Кутикулу, боковые валики и пазухи обрабатывают специальным аппаратом с фрезой и режущими инструментами
+        </section>
+        </p>
+      </figure>
+    </div>
+    <div class="services__card">
+      <p class="services__card-title">
+      <h2 class="text__tittle">Комбинированный маникюр</h2>
+      <figure class="block">
+        <img src="./src/комбинированный.jpg" alt="Комбинированный" class="services__image">
+        <br>
+        <section class="text_servises">
+          В процедуру входит аппаратный маникюр + база с укрепление,
+          а так же дизайн на на готовые ногти на ваш выбор
+        </section>
+        </p>
+      </figure>
+    </div>
+    <div class="services__card">
+      <p class="services__card-title">
+      <h2 class="text__tittle">Наращивание ногтей</h2>
+      <figure class="block">
+        <img src="./src/нарощенные.jpg" alt="Наращивание" class="services__image">
+        <br>
+        <section class="text_servises">
+          В процедуру входит комбинированный маникюр + наращивание
+          (в зависимости от ваших пожеланий) + база с укрепление
+        </section>
+        </p>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<div class="FAG" id="FAG">
+  <p class="FAG__title"> Часто задаваемые вопросы</p>
+  <div class="FAG__block">
+    <details>
+      <summary class="FAG__question">Как ухаживать за ногтями после процедуры?</summary>
+      <p class="FAG__answer">Следует избегать контакта с агрессивными химикатами, использовать увлажняющие масла и ни в
+        коем случае не снимать лак самостоятельно</p>
+    </details>
+    <details>
+      <summary class="FAG__question">Можно ли сделать дизайн на ногтях?</summary>
+      <p class="FAG__answer">Конечно! Я только за интересный и индивидуальный дизайн на ногтях</p>
+    </details>
+    <details>
+      <summary class="FAG__question">Какие фирмы используются?</summary>
+      <p class="FAG__answer">Я использую только высококачественные фирмы как для гель-лаков/гелей, так и для
+        инструментов</p>
+    </details>
+    <details>
+      <summary class="FAG__question">Беру ли я дополнительную плату за определенный дизайн?</summary>
+      <p class="FAG__answer">Нет, дизайн полностью включен в стоимость процедуры.Вы не платите дополнительно за френч,
+        наклейки, втирку и другое</p>
+    </details>
+    <details>
+      <summary class="FAG__question">Как я стерилизую инструменты</summary>
+      <p class="FAG__answer">Стерилизую инструменты строго по всем правилам СанПина. Они проходят дезинфекцию в
+        специальном растворе, сухожаровую обработку</p>
+    </details>
+  </div>
+</div>
+
+<div id="place">
+  <p class="location__heading">Где меня найти?</p>
+  <p class="location_title">Адрес: г.Елабуга, ул. Казанская, д. 89 <br></p>
+  <div class="location_text">
+    <p>
+      В этом уютном пространстве вас ждут безупречно красивые ногти — воплощение вашей мечты
+      о идеальном маникюре. А чтобы сделать ваш визит еще приятнее, я предлагаю богатый выбор
+      ароматного кофе, чая и вкусных угощений. Позвольте себе немного роскоши и заботы — приходите
+      ко мне на маникюр и окунитесь в атмосферу красоты и уюта!
+    </p>
+  </div>
+  <div>
+    <img src="./src/Местоположение.jpg" alt="Местоположение" class="location__foto">
+  </div>
+</div>
+
+<div class="contact">
+  <h2 class="text_contact">Записаться</h2>
+  <a href="whatsapp://send?phone=+79229601121" class="contact__icon-link">
+    <img src="./src/ватсап.png" alt=" ватсап" class="logo1">
+  </a>
+  <a href="tg://resolve?domain=@Chatonksy" class="contact__icon-link">
+    <img src="./src/телеграм.png" alt="телеграм" class="logo2">
+  </a>
+  <a href="https://vk.com/bllue_berry" class="contact__icon-link">
+    <img src="./src/vk.png" alt="vk" class="logo3">
+  </a>
+  <h2 class="text_contact2">Записаться</h2>
+</div>
+
+<script src="Main.js"></script>
+</html>
